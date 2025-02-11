@@ -1,0 +1,35 @@
+# FastAPI Framework
+fastapi
+
+# ASGI Server for Running FastAPI
+uvicorn
+
+# Database ORM
+sqlalchemy
+
+# MySQL Database Driver
+pymysql
+
+# Data Validation and Parsing
+pydantic
+
+# Password Hashing
+passlib[bcrypt]
+
+# Environment Variables Handling
+python-dotenv
+
+# JWT Authentication
+python-jose[cryptography]
+
+# Database Migrations
+alembic
+
+# Async Database Support (Optional)
+asyncpg
+
+# email-validator
+email-validator
+
+pydantic-settings
+python-multipart
