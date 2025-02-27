@@ -3,7 +3,7 @@ from jose import JWTError, jwt
 from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 from api.config import SECRET_KEY, ALGORITHM
-from api.crud import get_user_by_email
+from api.crud.user import get_user_by_email
 from api.database.connection import get_db
 from sqlalchemy.orm import Session
 
